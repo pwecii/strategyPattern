@@ -1,30 +1,23 @@
 <h2>Problem Scenario</h2>
 
-<p>
-Suppose we have three types of characters in a GameApp:
-</p>
+<p>Suppose we have three types of characters in a <strong>GameApp</strong>:</p>
 
 <ol>
     <li>
-        <strong>Knight</strong>: 
-        Attacks with a sword; uses three strategies to defend 
-        (shield, dodge, magic barrier).
+        <strong>Knight</strong>:<br>
+        Attacks with a sword; uses three strategies to defend (shield, dodge, magic barrier).
     </li>
-
     <li>
-        <strong>Wizard</strong>: 
+        <strong>Wizard</strong>:<br>
         Casts spells; uses magic barrier to defend.
     </li>
-
     <li>
-        <strong>Archer</strong>: 
+        <strong>Archer</strong>:<br>
         Shoots arrows; uses dodge to defend.
     </li>
 </ol>
 
-<p>
-Implement two types of Strategy:
-</p>
+<p>Implement two families of Strategy patterns:</p>
 
 <h3>A. DefenseStrategy</h3>
 <ol>
@@ -39,3 +32,8 @@ Implement two types of Strategy:
     <li>ShootArrow</li>
     <li>SwingSword</li>
 </ol>
+
+<!-- Optional: small visual separation / hint -->
+<hr style="margin: 2.5em 0; border-top: 1px solid #ddd;">
+
+<p><em>Goal: Refactor using the Strategy pattern to avoid conditional logic based on character type and allow easy extension of new behaviors.</em></p>
