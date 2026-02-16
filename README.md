@@ -33,7 +33,5 @@
     <li>SwingSword</li>
 </ol>
 
-<!-- Optional: small visual separation / hint -->
-<hr style="margin: 2.5em 0; border-top: 1px solid #ddd;">
 
-<p><em>Goal: Refactor using the Strategy pattern to avoid conditional logic based on character type and allow easy extension of new behaviors.</em></p>
+
